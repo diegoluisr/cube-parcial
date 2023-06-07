@@ -1,11 +1,37 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ff9df963-59ea-467a-b424-9cd2ea9fcfd9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2169e585-dfd6-495d-9eb0-8dbd91dc5e82" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Bancos</ID>
   <Name>Dim Bancos</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3089" scrolltop="-6443" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9472" y="17886" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Bancos" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3254" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Bancos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-3089</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-6443</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -40,35 +66,192 @@
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="56a46caf-69cf-4721-989b-6960452e3043">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="52adf415-b13f-4552-86ab-333be33708ba">
     <DataSourceViewID>Data Source View</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="ddf20e71-cda6-4c45-994d-d5acdccf2f24">
+  <ErrorConfiguration dwd:design-time-name="10a92d72-85bb-45d8-9fac-225bc91de11a">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="6e5ea1ca-e177-42b5-91eb-b562b7579cd3">
+    <Attribute dwd:design-time-name="09212e8c-f91b-4b99-8dab-13f032b6b2ae">
       <ID>Banco Key</ID>
       <Name>Banco Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3d21098f-72ca-4272-8fe3-96c768916040">
+        <KeyColumn dwd:design-time-name="f33369e8-de5b-4b38-80b4-02d4c3e9ccc1">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a68beb32-313d-4505-8598-c93bdf2b0f5f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="349ad26b-cd26-4f9d-bea8-93c0898e8f82">
             <TableID>dbo_Dim_Bancos</TableID>
             <ColumnID>banco_key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="08be0364-3210-4fe3-a7bb-a2a96940a93a">
+          <AttributeID>Numero Cuenta</AttributeID>
+          <Name>Numero Cuenta</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6a4c1153-90be-4bd5-a483-4d9ffbf7f617">
+          <AttributeID>Nombre Cuenta</AttributeID>
+          <Name>Nombre Cuenta</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5f228121-c269-4797-8530-0aae722a4e98">
+          <AttributeID>Moneda Cuenta</AttributeID>
+          <Name>Moneda Cuenta</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b50433e4-1fb2-418d-80ec-40b5723ef64b">
+          <AttributeID>Codigo Banco</AttributeID>
+          <Name>Codigo Banco</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bed8321d-4272-44a3-a797-d509a878c744">
+          <AttributeID>Nombre Banco</AttributeID>
+          <Name>Nombre Banco</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="27ae2ddf-9b00-45d1-a12f-cf2f71b0a8bf">
+          <AttributeID>Propiedad</AttributeID>
+          <Name>Propiedad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dc7c23a5-2d5e-4c19-9aa2-4e0c94e522fe">
+          <AttributeID>Linea Credito</AttributeID>
+          <Name>Linea Credito</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="33e89313-b506-40bf-be58-67f9f90f0648">
+      <ID>Numero Cuenta</ID>
+      <Name>Numero Cuenta</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d721497c-5a39-49d6-b01c-7c262eef3cec">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ba2a7423-1701-42d2-a8e2-107e833202fb">
+            <TableID>dbo_Dim_Bancos</TableID>
+            <ColumnID>numero_cuenta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="20c01a09-c5a3-4635-87a3-abb5e879fdbc">
+      <ID>Nombre Cuenta</ID>
+      <Name>Nombre Cuenta</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="20c70a23-4084-49b7-9380-55eefb898213">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3bcc079e-85c0-4763-bc66-1a6f40577ab2">
+            <TableID>dbo_Dim_Bancos</TableID>
+            <ColumnID>nombre_cuenta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="81870fec-2637-48ec-a493-649a2d28755b">
+      <ID>Moneda Cuenta</ID>
+      <Name>Moneda Cuenta</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c3f6730-53e8-43ac-967f-eb87c4d923fa">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d13840a9-5f6a-4c6f-a51a-9cdf6fd686d7">
+            <TableID>dbo_Dim_Bancos</TableID>
+            <ColumnID>moneda_cuenta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="781463ba-82d5-4b4a-89dd-af9bc2dca42c">
+      <ID>Codigo Banco</ID>
+      <Name>Codigo Banco</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f5f7a32-0294-4f65-b362-1b35731a4ee0">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79eb35d6-6da9-4b8c-8dd9-65c35cd54bf1">
+            <TableID>dbo_Dim_Bancos</TableID>
+            <ColumnID>codigo_banco</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d85ac66c-d14e-4314-87d4-18b14825cb89">
+      <ID>Nombre Banco</ID>
+      <Name>Nombre Banco</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4cafd627-9c83-44aa-996c-19c6a689c631">
+          <DataType>WChar</DataType>
+          <DataSize>60</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="820c5a20-c51f-4a58-a022-38d17c7caf81">
+            <TableID>dbo_Dim_Bancos</TableID>
+            <ColumnID>nombre_banco</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5932ec66-2ae1-42c7-b14d-1b9731531255">
+      <ID>Propiedad</ID>
+      <Name>Propiedad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b8dfccf2-27f7-4f58-9aaf-f755a59cc8f6">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d54b25bd-3048-47e2-a6ed-e6cc125f928a">
+            <TableID>dbo_Dim_Bancos</TableID>
+            <ColumnID>propiedad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="513f45db-d21f-4369-97f8-e39356c5b5c7">
+      <ID>Linea Credito</ID>
+      <Name>Linea Credito</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cd45d8f1-0050-442b-a6a2-0686e926f381">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ffeded9-3abd-46ae-8d6c-b6688d9d4e14">
+            <TableID>dbo_Dim_Bancos</TableID>
+            <ColumnID>linea_credito</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="a432d6e0-b452-41b9-9a33-5c1ff58ba8c1">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="e171fcc3-c688-4f14-94bb-8fa77dcf6624">
+          <ID>Nombre Banco</ID>
+          <Name>Nombre Banco</Name>
+          <SourceAttributeID>Nombre Banco</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="43860c0b-ee37-414b-9637-2324e8bddd02">
+          <ID>Nombre Cuenta</ID>
+          <Name>Nombre Cuenta</Name>
+          <SourceAttributeID>Nombre Cuenta</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
